@@ -10,14 +10,23 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Set minimum height to full viewport height */
+        }
+
+        .bgimg1 {
             background-color: #f8f8f8;
+            background-image: url('https://github.com/qlong123/images/blob/main/phone1-t3.png?raw=true');
+            background-size: 155px; /* Make the background image smaller */
+            background-repeat: repeat; /* Repeat the background image */
+            background-attachment: fixed; /* Fixed background position */
         }
 
         header {
             position: relative;
             height: 500px;
             background: url('https://github.com/qlong123/images/raw/main/phone1.png') center/cover no-repeat fixed;
-            filter: blur(3px);
             color: #fff;
             text-align: center;
             display: flex;
@@ -30,12 +39,27 @@
             margin-bottom: 20px;
         }
 
-        section {
-            margin: 20px;
+        .maina {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        .sectiona {
+            width: 48%;
             padding: 20px;
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        div {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 0px;
+            text-align: center;
         }
 
         h2 {
@@ -49,11 +73,29 @@
 
         footer {
             text-align: center;
-            margin-top: 20px;
+            margin-top: auto; /* Push the footer to the bottom */
             padding: 10px;
             background-color: #333;
             color: #fff;
         }
+
+       .wias {
+    text-align: center;
+}
+
+.watch-info-left {
+    width: 100%; /* Make it 100% width to take the full width of the container */
+    max-width: 560px; /* Set a maximum width to prevent it from getting too wide */
+    margin: 0 auto; /* Center the element horizontally */
+    padding: 20px;
+    background-color: #fff;
+}
+
+.watch-video-right {
+    width: 100%; /* Make it 100% width to take the full width of the container */
+    max-width: 560px; /* Set a maximum width to prevent it from getting too wide */
+    margin: 20px auto; /* Center the element horizontally with some bottom margin */
+}
     </style>
 </head>
 
@@ -61,11 +103,95 @@
     <header>
         <h1>The Telephone Office - VoIP Party Line Service</h1>
     </header>
-
-    <section>
+<div class="wias">
+    <div class="watch-info-left">
         <h2>Welcome to Our VoIP Party Line Service!</h2>
-        <!-- ... (rest of the content remains unchanged) -->
-    </section>
+        <p>
+                    At The Telephone Office, our VoIP Party Line Service is designed to enhance your communication experience.
+                    Connect with friends, family, and colleagues seamlessly through our reliable and feature-rich VoIP platform.
+                </p>
+    </div>
+
+    <div class="watch-video-right">
+       
+    </div></div>
+
+    <div class="bgimg1">
+        <main class="maina">
+
+            <section class="sectiona">
+                <h2>Key Features:</h2>
+                <ul>
+                    <li>Multi-party Conversations: Enjoy group conversations with multiple participants simultaneously.</li>
+                    <li>Crystal Clear Voice Quality: Experience high-definition voice quality for clear and crisp communication.</li>
+                    <li>Easy Setup: Our user-friendly interface ensures a hassle-free setup process for both beginners and tech-savvy
+                        users.</li>
+                    <li>Customizable Options: Personalize your party line settings to suit your preferences and needs.</li>
+                </ul>
+            </section>
+<section class="sectiona">
+                <h2>Contact Us:</h2>
+                <p>
+                    Phone Number: 020 8079 3214<br>
+                    E-mail: <a href="mailto:info.partyline@thetelephoneoffice.co.uk">info.partyline@thetelephoneoffice.co.uk</a>
+                </p>
+            </section>
+        </main>
+
+        <main class="maina">
+            <section class="sectiona">
+                <h2>How It Works:</h2>
+                <p>
+                    Our VoIP service provides users with a unique Party Line experience. Each group is assigned one phone number, serving as the caller ID for outgoing calls. Incoming calls prompt callers to enter a 'Party Line ID' (ranging from 1 to 9) on their phone keypad. The selected option directs the call to the corresponding user within the group.
+                    <br><br>
+                    The cost for the service, including one number, is £9.50 per month, divided equally among the members of the group (up to 9 individuals). Each user contributes to the cost share.
+                </p>
+            </section>
+
+            <section class="sectiona">
+                <h2>Additional Services:</h2>
+                <p>
+                    In addition to our VoIP Party Line Service, we offer a range of complementary services, including voicemail,
+                    call recording, and advanced analytics to enhance your overall communication experience.
+                    <br><br>
+
+                    Users have the flexibility to screen incoming calls, allowing them to identify the caller before answering. With unlimited lines, a single user can make outbound calls, while up to two additional inbound calls are routed to the Party Line Number. Additionally, we offer unlimited UK calling.
+
+                    <br><br>
+                    For added convenience, users have the option to purchase Direct Inbound Dial numbers at £3 per number per month, providing a dedicated line for individual users within the party.
+                </p>
+            </section>
+        </main>
+
+        <main class="maina">
+            <section class="sectiona">
+                <h2>Sign Up Today!</h2>
+                <p>
+                    <a href="https://share-eu1.hsforms.com/122wbBknUSp6H6CgvWbdypg2drsnw">Register</a> | <a href="http://80.193.53.70:85/ucp">Login</a>
+                </p>
+            </section>
+
+            <section class="sectiona">
+                <h2>Contact Us:</h2>
+                <p>
+                    Phone Number: 020 8079 3214<br>
+                    E-mail: <a href="mailto:info.partyline@thetelephoneoffice.co.uk">info.partyline@thetelephoneoffice.co.uk</a>
+                </p>
+            </section>
+        </main>
+    </div>
+<div class="wias">
+    <div class="watch-info-left">
+        <h2>Watch In Action</h2>
+        <p>We have made a short video showing a phone on the party line service.</p>
+    </div>
+
+    <div class="watch-video-right">
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/sCeRVT6IfVw?si=RS4nYRVTH7gF0TgW" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div></div>
 
     <footer>
         <p>&copy; 2024 The Telephone Office. All rights reserved.</p>
