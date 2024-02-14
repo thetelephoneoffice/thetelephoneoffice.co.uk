@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero {
+    background-image: url('hero-background.jpg'); /* Replace with your background image */
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    cursor: pointer;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.information {
+    padding: 50px;
+    text-align: center;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
