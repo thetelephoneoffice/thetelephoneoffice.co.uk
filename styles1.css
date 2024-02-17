@@ -5,7 +5,7 @@ body {
     margin: 0;
     background-color: #fff;
     font-family: Arial, sans-serif;
-text-align:center;
+    text-align:center;
 }
 
 header, section, footer {
@@ -43,8 +43,6 @@ button:hover {
     background-color: #666;
 }
 
-/* Existing CSS code */
-
 .plans {
     display: flex;
     justify-content: space-evenly;
@@ -53,6 +51,7 @@ button:hover {
     max-width: 800px;
     margin: 0 auto;
 }
+
 .plans > div {
     flex: 1;
     margin: 0 10px;
@@ -61,3 +60,17 @@ button:hover {
     padding: 20px; /* This adds some space between the border and the content */
 }
 
+/* Add media queries for smaller screens */
+@media screen and (max-width: 600px) {
+    header, section, footer {
+        width: 90%;
+    }
+
+    .plans {
+        flex-direction: column;
+    }
+
+    .plans > div {
+        margin-bottom: 20px;
+    }
+}
