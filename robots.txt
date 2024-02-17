@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: https://thetelephoneoffice.co.uk/sitemap.xml
