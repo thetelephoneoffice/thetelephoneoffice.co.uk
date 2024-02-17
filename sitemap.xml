@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>https://thetelephoneoffice.co.uk</loc>
+      <lastmod>2024-02-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+   </url>
+   <url>
+      <loc>https://thetelephoneoffice.co.uk/london.html</loc>
+      <lastmod>2024-02-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.1</priority>
+   </url>
+   <url>
+      <loc>https://thetelephoneoffice.co.uk/berwick-upon-tweed.html</loc>
+      <lastmod>2024-02-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.1</priority>
+   </url>
+<url>
+      <loc>https://thetelephoneoffice.co.uk/oswestry.html</loc>
+      <lastmod>2024-02-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.1</priority>
+   </url>
+   <url>
+      <loc>https://berwick-upon-tweed.thetelephoneoffice.co.uk</loc>
+      <lastmod>2024-02-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+   </url>
+   <url>
+      <loc>https://thetelephoneoffice.co.uk/london</loc>
+      <lastmod>2024-02-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.1</priority>
+   </url>
+   <url>
+      <loc>https://thetelephoneoffice.co.uk/berwick-upon-tweed</loc>
+      <lastmod>2024-02-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.1</priority>
+   </url>
+<url>
+      <loc>https://thetelephoneoffice.co.uk/oswestry</loc>
+      <lastmod>2024-02-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.1</priority>
+   </url>
+</urlset>
